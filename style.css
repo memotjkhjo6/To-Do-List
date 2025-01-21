@@ -116,3 +116,17 @@ ul li span {
 ul li span:hover {
     background: #edeef0;
 }
+
+@media (max-width: 380px) {
+    .row {
+        padding-left: 10px;
+    }
+
+    .row button {
+        padding: 16px 16px;
+    }
+
+    .container ul li {
+        padding: 12px 25px 12px 50px;
+    }
+}
